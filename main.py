@@ -16,7 +16,17 @@ def main():
     print("Hello, VSCode and Git!")
     hoge = add_10(100, 200)
     print(f"Sum of 100 and 200 is: {hoge:04d}")
+    hoge_hoge = multiply(100, hoge)
+    print(f"Product of 100 and {hoge} is: {hoge_hoge:04d}")
 
+def multiply(a, b):
+    """
+    Function to multiply two numbers.
+    :param a: First number
+    :param b: Second number
+    :return: Product of a and b
+    """
+    return a * b
 
 def add_10(a, b):
     """
