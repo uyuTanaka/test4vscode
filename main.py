@@ -14,18 +14,18 @@ def main():
     Main function to execute the script.
     """
     print("Hello, VSCode and Git!")
-    hoge = add(1, 2)
-    print(f"Sum of 1 and 2 is: {hoge:04d}")
+    hoge = add_10(100, 200)
+    print(f"Sum of 100 and 200 is: {hoge:04d}")
 
 
-def add(a, b):
+def add_10(a, b):
     """
     Function to add two numbers.
     :param a: First number
     :param b: Second number
     :return: Sum of a and b
     """
-    return a + b
+    return a + b + 10
 
 
 if __name__ == "__main__":
